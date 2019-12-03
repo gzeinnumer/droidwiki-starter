@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raywenderlich.android.droidwiki"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:7:5-25:19
+14        android:name="com.raywenderlich.android.droidwiki.application.WikiApplication"
+14-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:8:9-87
+15        android:allowBackup="true"
+15-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:9:9-35
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:11:9-43
+18        android:label="@string/app_name"
+18-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@android:style/Theme.Material.Light.DarkActionBar" >
+22-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:14:9-74
+23        <activity
+23-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:15:9-22:20
+24            android:name="com.raywenderlich.android.droidwiki.ui.splashscreen.Splashscreen"
+24-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:15:19-98
+25            android:theme="@style/Splashscreen" >
+25-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:16:13-48
+26            <intent-filter>
+26-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.raywenderlich.android.droidwiki.ui.homepage.HomepageActivity" />
+32-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:23:9-101
+32-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:23:19-98
+33        <activity android:name="com.raywenderlich.android.droidwiki.ui.search.SearchActivity" />
+33-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:24:9-97
+33-->D:\droidwiki-starter\app\src\main\AndroidManifest.xml:24:19-94
+34
+35        <meta-data
+35-->[com.android.support:recyclerview-v7:26.1.0] C:\Users\GZeinNumer\.gradle\caches\transforms-2\files-2.1\50be94ae7ef10cb8faa39b0ad42313c1\recyclerview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+36            android:name="android.support.VERSION"
+36-->[com.android.support:recyclerview-v7:26.1.0] C:\Users\GZeinNumer\.gradle\caches\transforms-2\files-2.1\50be94ae7ef10cb8faa39b0ad42313c1\recyclerview-v7-26.1.0\AndroidManifest.xml:24:13-51
+37            android:value="26.1.0" />
+37-->[com.android.support:recyclerview-v7:26.1.0] C:\Users\GZeinNumer\.gradle\caches\transforms-2\files-2.1\50be94ae7ef10cb8faa39b0ad42313c1\recyclerview-v7-26.1.0\AndroidManifest.xml:25:13-35
+38        <meta-data
+38-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\GZeinNumer\.gradle\caches\transforms-2\files-2.1\377d727c1ac03e32b81cc20427c2c6b0\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+39            android:name="android.arch.lifecycle.VERSION"
+39-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\GZeinNumer\.gradle\caches\transforms-2\files-2.1\377d727c1ac03e32b81cc20427c2c6b0\runtime-1.0.0\AndroidManifest.xml:26:13-58
+40            android:value="27.0.0-SNAPSHOT" />
+40-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\GZeinNumer\.gradle\caches\transforms-2\files-2.1\377d727c1ac03e32b81cc20427c2c6b0\runtime-1.0.0\AndroidManifest.xml:27:13-44
+41    </application>
+42
+43</manifest>
